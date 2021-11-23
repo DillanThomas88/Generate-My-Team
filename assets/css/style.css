@@ -1,0 +1,55 @@
+
+.hidden {
+    display: none;
+}
+
+.container {
+    padding: 100px 300px;
+    pointer-events: none;
+}
+.card {
+    box-shadow: var(--dark) 2px 2px 2px 0px;
+    border-radius: 5px 5px 5px 5px;
+    transition: transform 0.1s;
+
+}
+.card-top {
+    position: relative;
+    background-color: var(--primary);
+    padding: 0px 5px;
+    height: 60px;
+    width: 250px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid var(--primary);
+    border-bottom:  none;
+}
+
+.card-bottom {
+    position: relative;
+    height: 320px;
+    background-color: var(--light);
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    color: var(--dark);
+    margin-top: -0px;
+    border: 1px solid var(--detail);
+    border-top: none;
+
+}
+.unique {
+    padding-bottom: 125px;
+}
+.title {
+
+    bottom: 0;
+}
+.svg svg {
+    z-index: 10;
+    fill: var(--primary);
+    position: absolute;
+    left: 72px;
+    top: 205px;
+    height: 115px;
+    width: auto;
+}
