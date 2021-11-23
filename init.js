@@ -4,7 +4,7 @@ const Intern = require('./assets/js/intern')
 const Manager = require('./assets/js/manager')
 const Engineer = require('./assets/js/engineer');
 const createHTML = require('./assets/js/writehtml')
-const fileName = 'myteam.html'
+const fileName = 'index.html'
 
 const initQuestion = [
     ['Would you like to add a new member to the team?', 'newMember', 'confirm'],
