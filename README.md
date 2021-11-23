@@ -4,9 +4,6 @@
 Clone repo to local. <br>
 Run command `npm install` <br>
 Run command `node init.js`( Start Application) <br>
-
----
-
 ## Test
 Run command `jest test` to see if the application is running properly. or `jest --verbose` for a more detailed test.
 ## Preview
